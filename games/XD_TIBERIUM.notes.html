@@ -1,0 +1,780 @@
+<html>
+<body bgcolor="333333" align="center">
+
+<div style="text-align: center;">
+<br>
+  	
+<br><b><span style="font-size:280%;color:DDDDDD;">Tiberian Dawn</span></b>
+<br>
+
+
+<br><span style="font-size:80%;CCCCCC"colspan="2"><b>Version 0.0.1</b></span></th>
+
+
+<br>
+<br>
+<br>
+<span style="font-size:100%;color:DDDDDD;">
+<b>In 1995 a meteor struck down in Italy. From it a formerly unknown </b> <br>
+<b>type of crystal grew and quickly spread around the world. The new </b> <br>
+<b>substance was named Tiberium, with conflicting sources naming either</b> <br>
+<b>the river Tiber or the Roman Emperor Tiberius as its namesake.</b> <br>
+<br>
+<b>Tiberium growth gathers valuable elements out of the ground and</b> <br>
+<b>concentrates them, making the crystals profitable to harvest.</b> <br>
+<b>An ancient cult claims the coming of Tiberium had been prohesized.</b> <br>
+<b>This organization, known as the Brotherhood of NOD, has secured</b> <br>
+<b>some of the richest sources of Tiberium and declared war on the</b> <br>
+<b>Global Defense Initiative (GDI), the multinational organization</b> <br>
+<b>tasked with securing world peace.</b> <br>
+<br>
+<b>This is the war for control over Tiberium.</b> <br>
+<br>
+</span>
+<span style="font-size:120%;color:00DD00;">
+<b>This is the Dawn of the Tiberian Age</b><br>
+<br>
+<br>
+<br>
+</span>
+<br><span style="font-size:120%;color:00CC00;"><b>Game Design by Prussia</b></span>
+<br><span style="font-size:110%;color:00CC00;">Engine Support by Veqryn
+<br>Relief Tiles and Map Skins by Prussia and Pulicat
+<br>Command & Conquer Tiberium Dawn Conversion by Xander Dorn</span>
+<br>
+
+<br>
+<div style="text-align: center;">
+<br><span style="font-size:100%;color:00CC00;">==========================================================</span>
+<br><span style="font-size:200%;color:00CC00;"><b>Features</b></span>
+<br><span style="font-size:100%;color:00CC00;">==========================================================</span>
+<br>
+<br>
+<br> 
+<br>
+
+<table border="2"bgcolor="000000">
+	<tr>
+	<th style="font-size:120%;222222"bgcolor="DDDDDD"colspan="3">Alliances</th>
+	</tr>
+	<tr>
+	<th bgcolor="222222"><span style="font-size:100%;color:FFFFFF;"><b>GDI</b></span></th>
+	<th bgcolor="222222"><span style="font-size:100%;color:FFFFFF;"><b>NOD</b></span></th>
+	<th bgcolor="222222"><span style="font-size:100%;color:FFFFFF;"><b>Neutral</b></span></th>
+	</tr>
+	<tr>
+	<td bgcolor="7A6E4C"><span style="font-size:100%;color:F4DC97;"><b>Central Command</b></span></td>
+	<td bgcolor="de0101"><span style="font-size:100%;color:C7D0EC;"><b>Brotherhood of NOD/b></span></td>
+	<td bgcolor="008000"><span style="font-size:100%;color:00FF01;"><b>Forgotten</b></span></td>
+	</tr>
+	<tr>
+	<td bgcolor="072B44"><span style="font-size:100%;color:0E5588;"><b>Steel Talons</b></span></td>
+	<td bgcolor="971E00"><span style="font-size:100%;color:808080;"><b>Black Hand</b></span></td>
+	<td bgcolor="222222"></td>
+	</tr>
+	<tr>
+	<td bgcolor="403020"><span style="font-size:100%;color:806040;"><b>ZOCOM</b></span></td>
+	<td bgcolor="A20051"><span style="font-size:100%;color:9080A8;"><b>Marked of Kane</b></span></td>
+	<td bgcolor="CCCCCC"><span style="font-size:100%;color:FFFFFF;"><b>Neutral Countries</b></span></td>
+	</tr>
+</table>
+
+<br>
+<br>
+
+
+
+
+<br>
+<div style="text-align: center;">
+<br><span style="font-size:100%;color:00CC00;">==========================================================</span>
+<br><span style="font-size:200%;color:00CC00;"><b>Units</b></span>
+<br><span style="font-size:100%;color:00CC00;">==========================================================</span>
+<br>
+<br>
+
+<table border="2"bgcolor="000000">
+	<tr>
+	<th style="font-size:120%;222222"bgcolor="DDDDDD"colspan="7">NOD Units</th>
+	</tr>
+	<tr>
+	<th><span style="font-size:120%;color:00CC00;">Unit Name</span></th>
+	<th><span style="font-size:120%;color:00CC00;">Attack</span></th>
+	<th><span style="font-size:120%;color:00CC00;">Defense</span></th>
+	<th><span style="font-size:120%;color:00CC00;">Movement</span></th>
+	<th><span style="font-size:120%;color:00CC00;">Cost</span></th>
+	<th><span style="font-size:120%;color:00CC00;">Transport Size</span></th>
+	<th><span style="font-size:120%;color:00CC00;">Special Abilities</span></th>
+	</tr>
+
+	<tr bgcolor="DDDDDD">
+	<td>Infantry</td>
+	<td>1</td>
+	<td>2</td>
+	<td>1</td>
+	<td>5</td>
+	<td>2</td>
+	<td>Supportable</td>
+	</tr>
+	
+
+	<tr bgcolor="DDDDDD">
+	<td>Light Mechanized</td>
+	<td>2</td>
+	<td>2</td>
+	<td>2</td>
+	<td>7</td>
+	<td>3</td>
+	<td></td>
+	</tr>
+	
+	<tr bgcolor="DDDDDD">
+	<td>Light Tank</td>
+	<td>3</td>
+	<td>3</td>
+	<td>2</td>
+	<td>9</td>
+	<td>3</td>
+	<td></td>
+	</tr>
+	
+	<tr bgcolor="DDDDDD">
+	<td>Artillery</td>
+	<td>3</td>
+	<td>2</td>
+	<td>2</td>
+	<td>9</td>
+	<td>3</td>
+	<td>Support Unit</td>
+	</tr>
+
+	<tr bgcolor="DDDDDD">	
+	<td>Flame Tank</td>
+	<td>3</td>
+	<td>2</td>
+	<td>2</td>
+	<td>9</td>
+	<td>3</td>
+	<td>Supportable</td>
+	</tr>
+	
+	<tr bgcolor="DDDDDD">
+	<td>Stealth Tank</td>
+	<td>3</td>
+	<td>2</td>
+	<td>2</td>
+	<td>25</td>
+	<td>3</td>
+	<td>Double Hit</td>
+	</tr>
+	
+	<tr bgcolor="DDDDDD">
+	<td>SSML</td>
+	<td>4</td>
+	<td>2</td>
+	<td>2</td>
+	<td>10</td>
+	<td>3</td>
+	<td>Support Unit</td>
+	</tr>	
+	
+	<tr bgcolor="DDDDDD">
+	<td>Black Hand Assassin</td>
+	<td>4</td>
+	<td>2</td>
+	<td>1</td>
+	<td>26</td>
+	<td>1</td>
+	<td>Supportable,<br>Double Hit</td>
+	</tr>
+	
+	<tr bgcolor="DDDDDD">
+	<td>Apache</td>
+	<td>3</td>
+	<td>2</td>
+	<td>4</td>
+	<td>11</td>
+	<td>1</td>
+	<td></td>
+	</tr>
+	
+	<tr bgcolor="DDDDDD">
+	<td>Gunboat</td>
+	<td>2</td>
+	<td>2</td>
+	<td>2</td>
+	<td>7</td>
+	<td></td>
+	<td>Bombard Strength: 1</td>
+	</tr>
+	
+	<tr bgcolor="DDDDDD">
+	<td>Destroyer</td>
+	<td>3</td>
+	<td>4</td>
+	<td>2</td>
+	<td>14</td>
+	<td></td>
+	<td>Counters Submarines,<br>Bombard Strength: 2</td>
+	</tr>
+	
+	<tr bgcolor="DDDDDD">
+	<td>Submarine</td>
+	<td>4</td>
+	<td>3</td>
+	<td>2</td>
+	<td>14</td>
+	<td></td>
+	<td>First Strike,<b>can submerge,<br>cannot attack air units</td>
+	</tr>
+	
+	<tr bgcolor="DDDDDD">
+	<td>Missile Sub</td>
+	<td>3</td>
+	<td>3</td>
+	<td>2</td>
+	<td>14</td>
+	<td></td>
+	<td>First Strike,<b>can submerge,<br>Bombard Strength: 2,<br>cannot attack air units</td>
+	</tr>
+	
+	<tr bgcolor="DDDDDD">
+	<td>Hovercraft</td>
+	<td>1</td>
+	<td>1</td>
+	<td>2</td>
+	<td>11</td>
+	<td></td>
+	<td>9 Transport Capacity</td>
+	</tr>
+	
+	<tr bgcolor="DDDDDD">
+	<td>Carrier</td>
+	<td>2</td>
+	<td>3</td>
+	<td>2</td>
+	<td>21</td>
+	<td></td>
+	<td>4 Air Transport Capacity</td>
+	</tr>
+	
+	<tr bgcolor="DDDDDD">
+	<td>Turret</td>
+	<td></td>
+	<td>3</td>
+	<td></td>
+	<td>5</td>
+	<td></td>
+	<td></td>
+	</tr>
+	
+	<tr bgcolor="DDDDDD">
+	<td>Obelisk</td>
+	<td></td>
+	<td>5</td>
+	<td></td>
+	<td>9</td>
+	<td></td>
+	<td></td>
+	</tr>
+	
+	<tr bgcolor="DDDDDD">
+	<td>SAM-Site</td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td>10</td>
+	<td></td>
+	<td>Only Air Defense</td>
+	</tr>
+	
+	<tr bgcolor="DDDDDD">
+	<td>Temple of NOD</td>
+	<td></td>
+	<td>5 x 3</td>
+	<td></td>
+	<td>64</td>
+	<td></td>
+	<td>Double Hit</td>
+	</tr>
+	
+	<tr bgcolor="DDDDDD">
+	<td>MCV</td>
+	<td></td>
+	<td></td>
+	<td>1</td>
+	<td>20</td>
+	<td>5</td>
+	<td></td>
+	</tr>
+	
+	<tr bgcolor="DDDDDD">
+	<td>Construction Yard</td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td>Requires an MCV in territory</td>
+	</tr>
+	
+
+	<tr>
+	<th><span style="font-size:120%;color:00CC00;">Unit Name</span></th>
+	<th><span style="font-size:120%;color:00CC00;">Attack</span></th>
+	<th><span style="font-size:120%;color:00CC00;">Defense</span></th>
+	<th><span style="font-size:120%;color:00CC00;">Movement</span></th>
+	<th><span style="font-size:120%;color:00CC00;">Cost</span></th>
+	<th><span style="font-size:120%;color:00CC00;">Transport Size</span></th>
+	<th><span style="font-size:120%;color:00CC00;">Special Abilities</span></th>
+	</tr>
+</table>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<table border="2"bgcolor="000000">
+	<tr>
+	<th style="font-size:120%;222222"bgcolor="DDDDDD"colspan="7">GDI Units</th>
+	</tr>
+	<tr>
+	<th><span style="font-size:120%;color:00CC00;">Unit Name</span></th>
+	<th><span style="font-size:120%;color:00CC00;">Attack</span></th>
+	<th><span style="font-size:120%;color:00CC00;">Defense</span></th>
+	<th><span style="font-size:120%;color:00CC00;">Movement</span></th>
+	<th><span style="font-size:120%;color:00CC00;">Cost</span></th>
+	<th><span style="font-size:120%;color:00CC00;">Transport Size</span></th>
+	<th><span style="font-size:120%;color:00CC00;">Special Abilities</span></th>
+	</tr>
+
+	<tr bgcolor="DDDDDD">
+	<td>Infantry</td>
+	<td>1</td>
+	<td>2</td>
+	<td>1</td>
+	<td>5</td>
+	<td>2</td>
+	<td>Supportable</td>
+	</tr>
+	
+
+	<tr bgcolor="DDDDDD">
+	<td>Mechanized</td>
+	<td>2</td>
+	<td>3</td>
+	<td>2</td>
+	<td>9</td>
+	<td>3</td>
+	<td>Support Unit</td>
+	</tr>
+	
+	<tr bgcolor="DDDDDD">
+	<td>Medium Tank</td>
+	<td>4</td>
+	<td>4</td>
+	<td>2</td>
+	<td>12</td>
+	<td>3</td>
+	<td></td>
+	</tr>
+	
+	<tr bgcolor="DDDDDD">
+	<td>MLRS</td>
+	<td>4</td>
+	<td>3</td>
+	<td>2</td>
+	<td>11</td>
+	<td>3</td>
+	<td>Support Unit</td>
+	</tr>
+
+	<tr bgcolor="DDDDDD">	
+	<td>Mammoth Tank</td>
+	<td>2 x 3</td>
+	<td>2 x 3</td>
+	<td>1</td>
+	<td>40</td>
+	<td>5</td>
+	<td>Double Hit</td>
+	</tr>
+	
+	<tr bgcolor="DDDDDD">
+	<td>Commando</td>
+	<td>3</td>
+	<td>3</td>
+	<td>1</td>
+	<td>26</td>
+	<td>1</td>
+	<td>Supportable,<br>Double Hit</td>
+	</tr>
+	
+	<tr bgcolor="DDDDDD">
+	<td>A-10</td>
+	<td>5</td>
+	<td>1</td>
+	<td>6</td>
+	<td>16</td>
+	<td>2</td>
+	<td></td>
+	</tr>
+	
+	<tr bgcolor="DDDDDD">
+	<td>Orca</td>
+	<td>4</td>
+	<td>2</td>
+	<td>4</td>
+	<td>13</td>
+	<td>1</td>
+	<td></td>
+	</tr>
+	
+	<tr bgcolor="DDDDDD">
+	<td>Gunboat</td>
+	<td>2</td>
+	<td>2</td>
+	<td>2</td>
+	<td>7</td>
+	<td></td>
+	<td>Bombard Strength: 1</td>
+	</tr>
+	
+	<tr bgcolor="DDDDDD">
+	<td>Destroyer</td>
+	<td>3</td>
+	<td>4</td>
+	<td>2</td>
+	<td>14</td>
+	<td></td>
+	<td>Counters Submarines,<br>Bombard Strength: 2</td>
+	</tr>
+	
+	<tr bgcolor="DDDDDD">
+	<td>Cruiser</td>
+	<td>5</td>
+	<td>5</td>
+	<td>2</td>
+	<td>19</td>
+	<td></td>
+	<td>Bombard Strength: 3</td>
+	</tr>
+	
+	<tr bgcolor="DDDDDD">
+	<td>Hovercraft</td>
+	<td>1</td>
+	<td>1</td>
+	<td>2</td>
+	<td>11</td>
+	<td></td>
+	<td>9 Transport Capacity</td>
+	</tr>
+	
+	<tr bgcolor="DDDDDD">
+	<td>Carrier</td>
+	<td>2</td>
+	<td>3</td>
+	<td>2</td>
+	<td>21</td>
+	<td></td>
+	<td>4 Air Transport Capacity</td>
+	</tr>
+	
+	<tr bgcolor="DDDDDD">
+	<td>Guard Tower</td>
+	<td></td>
+	<td>2</td>
+	<td></td>
+	<td>3</td>
+	<td></td>
+	<td></td>
+	</tr>
+	
+	<tr bgcolor="DDDDDD">
+	<td>Advanced Guard Tower</td>
+	<td></td>
+	<td>4</td>
+	<td></td>
+	<td>7</td>
+	<td></td>
+	<td></td>
+	</tr>
+	
+	<tr bgcolor="DDDDDD">
+	<td>SAM-Site</td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td>10</td>
+	<td></td>
+	<td>Only Air Defense</td>
+	</tr>
+	
+	<tr bgcolor="DDDDDD">
+	<td>Advanced Communications Center</td>
+	<td></td>
+	<td>2 x 5</td>
+	<td></td>
+	<td>45</td>
+	<td></td>
+	<td>Double Hit</td>
+	</tr>
+	
+	<tr bgcolor="DDDDDD">
+	<td>MCV</td>
+	<td></td>
+	<td></td>
+	<td>1</td>
+	<td>20</td>
+	<td>5</td>
+	<td></td>
+	</tr>
+	
+	<tr bgcolor="DDDDDD">
+	<td>Construction Yard</td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td>Requires an MCV in territory</td>
+	</tr>
+	
+
+	<tr>
+	<th><span style="font-size:120%;color:00CC00;">Unit Name</span></th>
+	<th><span style="font-size:120%;color:00CC00;">Attack</span></th>
+	<th><span style="font-size:120%;color:00CC00;">Defense</span></th>
+	<th><span style="font-size:120%;color:00CC00;">Movement</span></th>
+	<th><span style="font-size:120%;color:00CC00;">Cost</span></th>
+	<th><span style="font-size:120%;color:00CC00;">Transport Size</span></th>
+	<th><span style="font-size:120%;color:00CC00;">Special Abilities</span></th>
+	</tr>
+</table>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<table border="2"bgcolor="000000">
+	<tr>
+	<th style="font-size:120%;222222"bgcolor="DDDDDD"colspan="7">Forgotten Units</th>
+	</tr>
+	<tr>
+	<th><span style="font-size:120%;color:00CC00;">Unit Name</span></th>
+	<th><span style="font-size:120%;color:00CC00;">Attack</span></th>
+	<th><span style="font-size:120%;color:00CC00;">Defense</span></th>
+	<th><span style="font-size:120%;color:00CC00;">Movement</span></th>
+	<th><span style="font-size:120%;color:00CC00;">Cost</span></th>
+	<th><span style="font-size:120%;color:00CC00;">Transport Size</span></th>
+	<th><span style="font-size:120%;color:00CC00;">Special Abilities</span></th>
+	</tr>
+
+	<tr bgcolor="DDDDDD">
+	<td>Infantry</td>
+	<td>1</td>
+	<td>2</td>
+	<td>1</td>
+	<td>5</td>
+	<td>2</td>
+	<td>Supportable</td>
+	</tr>
+	
+	<tr bgcolor="DDDDDD">
+	<td>Tiberium Mechanized</td>
+	<td>2</td>
+	<td>2</td>
+	<td>2</td>
+	<td>8</td>
+	<td>3</td>
+	<td>Support Unit</td>
+	</tr>
+	
+	<tr bgcolor="DDDDDD">
+	<td>Light Tank</td>
+	<td>3</td>
+	<td>3</td>
+	<td>2</td>
+	<td>9</td>
+	<td>3</td>
+	<td></td>
+	</tr>
+	
+	<tr bgcolor="DDDDDD">
+	<td>Artillery</td>
+	<td>3</td>
+	<td>2</td>
+	<td>2</td>
+	<td>9</td>
+	<td>3</td>
+	<td>Support Unit</td>
+	</tr>
+
+	<tr bgcolor="DDDDDD">
+	<td>Gunboat</td>
+	<td>2</td>
+	<td>2</td>
+	<td>2</td>
+	<td>7</td>
+	<td></td>
+	<td>Bombard Strength: 1</td>
+	</tr>
+	
+	<tr bgcolor="DDDDDD">
+	<td>Hovercraft</td>
+	<td>1</td>
+	<td>1</td>
+	<td>2</td>
+	<td>11</td>
+	<td></td>
+	<td>9 Transport Capacity</td>
+	</tr>
+	
+	<tr bgcolor="DDDDDD">
+	<td>Guard Tower</td>
+	<td></td>
+	<td>2</td>
+	<td></td>
+	<td>3</td>
+	<td></td>
+	<td></td>
+	</tr>
+	
+	<tr bgcolor="DDDDDD">
+	<td>Turret</td>
+	<td></td>
+	<td>3</td>
+	<td></td>
+	<td>5</td>
+	<td></td>
+	<td></td>
+	</tr>
+	
+	<tr bgcolor="DDDDDD">
+	<td>SAM-Site</td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td>10</td>
+	<td></td>
+	<td>Only Air Defense</td>
+	</tr>
+	
+	<tr bgcolor="DDDDDD">
+	<td>MCV</td>
+	<td></td>
+	<td></td>
+	<td>1</td>
+	<td>20</td>
+	<td>5</td>
+	<td></td>
+	</tr>
+	
+	<tr bgcolor="DDDDDD">
+	<td>Construction Yard</td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td>Requires an MCV in territory</td>
+	</tr>
+	
+	<tr>
+	<th><span style="font-size:120%;color:00CC00;">Unit Name</span></th>
+	<th><span style="font-size:120%;color:00CC00;">Attack</span></th>
+	<th><span style="font-size:120%;color:00CC00;">Defense</span></th>
+	<th><span style="font-size:120%;color:00CC00;">Movement</span></th>
+	<th><span style="font-size:120%;color:00CC00;">Cost</span></th>
+	<th><span style="font-size:120%;color:00CC00;">Transport Size</span></th>
+	<th><span style="font-size:120%;color:00CC00;">Special Abilities</span></th>
+	</tr>
+</table>
+
+
+
+
+
+
+
+
+
+<br>
+
+
+<br>
+
+
+
+<br>
+<div style="text-align: center;">
+<br><span style="font-size:100%;color:00CC00;">==========================================================</span>
+<br><span style="font-size:200%;color:00CC00;"><b>Strategy</b></span>
+<br><span style="font-size:100%;color:00CC00;">==========================================================</span>
+<br>
+<br>
+<div style="text-align: center;">
+<br><b><span style="font-size:160%;color:FFFFFF;">Strategical Hints for Beginners</span></b>
+<br>
+<div style="text-align: left;">
+	<ul>
+	<li><span style="font-size:100%;color:FFFFFF;">The Forgotten can be player controlled, but recommendation is to have them AI controlled.</span>
+	<li><span style="font-size:100%;color:FFFFFF;">All GDI and NOD factions begin with a superweapon. Except for the Marked of Kane these are in their respective capitol territory.</span>
+	<li><span style="font-size:100%;color:FFFFFF;">All GDI and NOD factions begin with a Commando or Assassin special unit. Black Hand starts with three instead.</span>
+	<li><span style="font-size:100%;color:FFFFFF;">Some units like Mammoth and Stealth Tanks can only be built later in the game.</span>
+	<li><span style="font-size:100%;color:FFFFFF;">Double Hit units heal at the beginning of a player turn.</span>
+	<li><span style="font-size:100%;color:FFFFFF;">A Support Unit gives +1 Attack to one Supportable Unit.</span>
+	<li><span style="font-size:100%;color:FFFFFF;">Air Units need to end their turn in an area that was already controlled by a friendly faction at the beginning of the turn or on a Carrier.</span>
+	<li><span style="font-size:100%;color:FFFFFF;">Submarines attack first during naval battles unless countered by a Destroyer. Submarines cannot attack Air Units. They can submerge during combat.</span>
+	<li><span style="font-size:100%;color:FFFFFF;">To build a Construction Yard, an MCV must be present in that territory.</span>
+	<li><span style="font-size:100%;color:FFFFFF;">SAM-Sites and Construction Yards change owner when a territory is conquered.</span>
+	<li><span style="font-size:100%;color:FFFFFF;">All factions receive bonus units every turn if they own their capitol territory.</span>
+	<li><span style="font-size:100%;color:FFFFFF;">Enemy type units can be received in conquered enemy capitols.</span>
+	<li><span style="font-size:100%;color:FFFFFF;">NOD factions receive bonus income from some conquered territories.</span>
+	<li><span style="font-size:100%;color:FFFFFF;">Marked of Kane has to reconquer its capitol of Shantung from the Forgotten.</span>
+	<li><span style="font-size:100%;color:FFFFFF;">Marked of Kane has a chance to reenact the attack on Pearl Harbor</span>
+	<li><span style="font-size:100%;color:FFFFFF;">ZOCOM has the most spread out territories in Africa, South America, India, and Australia.</span>
+	<li><span style="font-size:100%;color:FFFFFF;">The Brotherhood of Nod is the most centralized power. Throwing GDI out of Europe is hard, but there are many high value territories. Spreading out into western Asia is also recommended to improve income.</span>
+	<li><span style="font-size:100%;color:FFFFFF;">The Central Command is situated around the North Atlantic. Shuttling troops from North America to Europe is vital for success.</span>
+	<li><span style="font-size:100%;color:FFFFFF;">The Steel Talons are GDI's power around most of the Pacific. Securing South America as well as contesting the eastern coasts of Asia is the path to victory.</span>
+	<li><span style="font-size:100%;color:FFFFFF;">Peace through Power.</span>
+	</ul>
+<div style="text-align: center;">
+
+<br>
+<div style="text-align: center;">
+<br>==========================================================
+<br><span style="font-size:200%"><b>Credits</b></span>
+<br>==========================================================
+<br>
+
+<br>
+<h1 style="text-align: center;font-size:120%;000000"><em>Thanks to the following contributors</em></h1>
+<br> # Prussia for making Big World 2 and updating the game since 2010
+<br> # Veqryn for engine support and providing examples of xml code
+<br> # Pulicat for making relief tiles for the seazones
+<br> # erik542 for significant amount of playtesting and balancing
+<br> # RolfLarsson for maintaining the map depot and debugging
+<br> # Hepster for providing assistance in debugging
+<br> # Sieg for style and design of game notes
+<br> # Asfa for playtesting and balancing
+<br> # Imbaked for playtesting
+<br> # lacj31 for playtesting
+<br> # mokox for playtesting
+<br> # nato for playtesting
+<br> # Silverbullet for playtesting
+<br> # Almost last, surely not least, thx to Larry Harris for A&A
+<br> # And finally, thx to the pleasant community as a whole, and specifically to all the Big World 2 fans who play and support this map
+<br>
+<br>==========================================================
+<br>
+
+<tr>
+<th style="font-size:110%;color:660000;"><br>Prussia 2011<br></th>
+</tr>
+<br>
+<br>
+<br>
+</body>
+</html>
